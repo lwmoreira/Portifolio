@@ -1,15 +1,38 @@
-body {
-  background-color: black;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: black;
   color: #f6f6f6;
 }
 
-strong {
+.destaque-titulo {
   color: #22d4fd;
 }
 
-p {
-  color: #f6f6f6;
+.apresentacao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10%;
+
+  height: 100%;
+}
+
+.apresentacao__conteudo {
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+}
+
+.apresentacao__conteudo__titulo {
+  font-size: 36px;
+}
+
+.apresentacao__conteudo__texto {
+  font-size: 24px;
 }
