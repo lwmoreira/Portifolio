@@ -4,11 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./stayles/style.css" />
     <title>Portifólio</title>
   </head>
   <body>
-    <header></header>
+    <header class="cabecalho">
+      <nav class="cabecalho__menu">
+        <a class="cabecalho__menu__link" href="index.html">Home</a>
+        <a class="cabecalho__menu__link" href="abaout.html">Sobre mim</a>
+      </nav>
+    </header>
     <main class="apresentacao">
       <section class="apresentacao__conteudo">
         <h1 class="apresentacao__conteudo__titulo">
@@ -26,23 +31,31 @@
           <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
           <a
             class="apresentacao__links__links"
-            href="https://www.linkedin.com/in/lw-moreira/"
-            >Linkedin</a
-          >
-          <a
-            class="apresentacao__links__links"
             href="https://github.com/lwmoreira"
-            >Github</a
           >
+            <img src="./assets/github.png" />
+            Github
+          </a>
           <a
             class="apresentacao__links__links"
-            href="https://www.instagram.com/lwmoreira/"
-            >Instagram</a
+            href="https://www.linkedin.com/in/lw-moreira/"
           >
+            <img src="./assets/linkedin.png" />
+            Linkedin
+          </a>
+          <a
+            class="apresentacao__links__links"
+            href="https://www.Twitch.tv/lwmoreira"
+          >
+            <img src="./assets/twitch.png" />
+            Twitch
+          </a>
         </div>
       </section>
-      <img src="Imagem.png" alt="img" />
+      <img src="./assets/Imagem.png" alt="img" />
     </main>
-    <footer></footer>
+    <footer>
+      <p class="rodape">Desenvolvido por: Luciano Wagner Moreira</p>
+    </footer>
   </body>
 </html>
